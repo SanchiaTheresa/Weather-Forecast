@@ -4,13 +4,13 @@ A modern, responsive weather application built with Flask (backend) and vanilla 
 
 ## Features
 
-- 🌍 **Current Weather Display** - Shows real-time weather data including temperature, humidity, wind speed, and pressure
-- 📅 **4-Day Forecast** - Detailed weather predictions for the next 4 days
-- 🔍 **City Search** - Search for any city worldwide
-- 📍 **Geolocation** - Get weather for your current location
-- 🎨 **Modern UI** - Beautiful, responsive design with glassmorphism effects
-- 📱 **Mobile Responsive** - Works seamlessly on desktop, tablet, and mobile devices
-- ⚡ **Component-Based** - Clean, modular code structure
+-  **Current Weather Display** - Shows real-time weather data including temperature, humidity, wind speed, and pressure
+-  **4-Day Forecast** - Detailed weather predictions for the next 4 days
+-  **City Search** - Search for any city worldwide
+-  **Geolocation** - Get weather for your current location
+-  **Modern UI** - Beautiful, responsive design with glassmorphism effects
+-  **Mobile Responsive** - Works seamlessly on desktop, tablet, and mobile devices
+-  **Component-Based** - Clean, modular code structure
 
 ## Project Structure
 
