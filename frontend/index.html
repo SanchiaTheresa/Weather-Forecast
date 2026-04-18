@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Component -->
+        <div id="header"></div>
+
+        <!-- Search Component -->
+        <div class="search-section">
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for a city..."
+                    class="search-input"
+                >
+                <button id="searchBtn" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="locationBtn" class="location-btn" title="Use current location">
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Current Weather Component -->
+        <div id="currentWeather"></div>
+
+        <!-- Forecast Component -->
+        <div id="forecast"></div>
+
+        <!-- Footer Component -->
+        <div id="footer"></div>
+
+        <!-- Loading Spinner -->
+        <div id="loadingSpinner" class="loading-spinner hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message hidden"></div>
+    </div>
+
+    <script src="components/header.js"></script>
+    <script src="components/current-weather.js"></script>
+    <script src="components/forecast.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
